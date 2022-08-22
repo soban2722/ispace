@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    padding: 30px 50px;
+    background-color:teal;
+    width: 100%;
+}
+.outer{
+    padding: 20px;
+    background-color:whitesmoke;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.outer a{
+    color: teal;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.outer a:hover{
+    color: white;
+    background-color: red;
+    transition:all 0.5s;
+}
+.content{
+    text-align: center;
+}
+.content span{
+    color: red;
+}
+img{
+    width: 95%;   
+}
+h1{
+    font-size: 3em;
+    color: teal;
+}
+span{
+    color: red;
+}
+.flex{
+    display: flex; 
+    margin: 15px;
+}
+.innerflex h1{
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    background-color:tomato;
+    color:white;
+    text-transform: capitalize;
+    text-align: start;
+}
+.innerflex p{
+    margin: 0px 10px;
+    text-transform: capitalize;
+    text-align:justify;
+    padding: 10px;
+    background-color:tomato;
+    height: 150px;
+    color: white;
+    font-size: larger;
+}   
+.flex-text{
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+}
+.content-flex{
+    margin-left: 5px;
+    width: 33%;
+    font-size: 20px;
+}
+li{
+    list-style-type:square;
+    line-height: 30px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+ul input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:green;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 9px;
+    cursor: pointer;
+}
+ul input:hover{
+    background-color: red;
+    transition: all 0.3s;
+}
+.diagram{
+    display: flex;
+    margin-left: 10px;
+}
+.flexbox{
+    background-color: green;
+    display: flex;
+    width: 50%;
+    margin: 10px;
+}
+.flexbox h1{
+    color: white;
+    padding: 20px;
+    background-color:brown;
+}
+.flexbox h2{
+    color: white;
+    font-size: 45px;
+    padding: 30px;
+    background-color: brown;
+}
+.flexbox p{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-family:Cambria, Cochin, 'Georgia', Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.footer h1{
+    padding: 10px;
+    color:grey;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.footer span{
+    padding: 30px;
+    color: red;
+}
